@@ -1,0 +1,20 @@
+/* put a default margin on everything in the main element */
+main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.hobbies {
+    display: inline-block;
+    /* If width is not initialized the "lorem ipsum..." text will become too long and school will not be able to stand next to it and will therefore be placed below it. */
+    width: 30%;
+}
+
+.school {
+    /* display: inline-block; (not really necessary because of the "float: right;") */
+    float: right;
+    /* same reason like in hobbies */
+    width: 30%;
+}
+
+/* Note: This is only the styling for desktops and not for smartphones. */
